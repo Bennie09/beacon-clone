@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Rajdhani", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #0f5c88;
+}
+
+.navbar-left{
+    padding-left: 50px;
+    padding: 15px;
+}
+
+.navbar-right .upper{
+    background: #43a3cf;
+    padding: 10px 10px;
+}
+
+.navbar-right .upper ul{
+    display: flex;
+}
+
+.navbar-right .upper ul li{
+    color: #fff;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.navbar-right .upper ul .space{
+    margin-right: 30px;
+}
+
+.navbar-right .upper ul li span{
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.navbar-right .lower ul{
+    display: flex;
+}
+
+.navbar-right .lower ul li{
+    color: #fff;
+    list-style: none;
+    padding-right: 10px;
+}
+
+
+
